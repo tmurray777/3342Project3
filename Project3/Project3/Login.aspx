@@ -34,7 +34,7 @@
             </div>
             <div class="row col-md-4 col-md-offset-3">
                 <label class="control-label">New User? </label>
-                <a href="#" class="btn btn-link">Click Here</a>
+                <a href="NewUser.aspx" class="btn btn-link">Click Here</a>
             </div>
         </div>
     </form>

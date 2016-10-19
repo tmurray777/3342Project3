@@ -13,5 +13,10 @@ namespace Project3
         {
 
         }
+
+        protected void btnBoughtEvent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

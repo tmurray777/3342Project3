@@ -115,8 +115,10 @@
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="SellerHome.aspx" />
+    <Content Include="SellerModify.aspx" />
     <Content Include="SellTickets.aspx" />
     <Content Include="Web.config" />
+    <Content Include="YourBuyerTickets.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuyerHome.aspx.cs">
@@ -169,6 +171,13 @@
     <Compile Include="SellerHome.aspx.designer.cs">
       <DependentUpon>SellerHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SellerModify.aspx.cs">
+      <DependentUpon>SellerModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellerModify.aspx.designer.cs">
+      <DependentUpon>SellerModify.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SellTickets.aspx.cs">
       <DependentUpon>SellTickets.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,6 +185,19 @@
     <Compile Include="SellTickets.aspx.designer.cs">
       <DependentUpon>SellTickets.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YourBuyerTickets.aspx.cs">
+      <DependentUpon>YourBuyerTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YourBuyerTickets.aspx.designer.cs">
+      <DependentUpon>YourBuyerTickets.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TicketLibrary\TicketLibrary.csproj">
+      <Project>{97e6a12c-5744-4a48-b21b-2a630d8146d4}</Project>
+      <Name>TicketLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

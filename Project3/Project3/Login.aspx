@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="form-group col-md-4 col-md-offset-4">
                     <label class="control-label">UserName:</label>
-                    <input class="form-control" type="text" id="templeID" runat="server" />
+                    <input class="form-control" type="text" id="loginUsername" runat="server" />
                 </div>
             </div>
             <div class="row">

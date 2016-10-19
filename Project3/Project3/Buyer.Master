@@ -25,12 +25,15 @@
                             <a class="nav-link" href="BuyerHome.aspx">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="BuyTickets.aspx">Buy Tickets</a>
+                            <a class="nav-link" href="BuyTickets.aspx">Find Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="YourBuyerTickets.aspx">Your Tickets</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="container">
+            <%--<div class="container">
                 <div class="row">
                     <div class="col-sm-4">
                         <asp:Label ID="lblWelcome" runat="server" Text="Welcome, "></asp:Label>
@@ -43,7 +46,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div>--%>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

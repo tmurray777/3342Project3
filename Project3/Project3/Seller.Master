@@ -25,7 +25,10 @@
                             <a class="nav-link" href="SellerHome.aspx">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="SellTickets.aspx">Sell Tickets</a>
+                            <a class="nav-link" href="SellTickets.aspx">Add Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="SellerModify.aspx">Edit Tickets</a>
                         </li>
                     </ul>
                 </nav>
@@ -36,10 +39,8 @@
                         <asp:Label ID="lblWelcome" runat="server" Text="Welcome, "></asp:Label>
                     </div>
                     <div class="col-sm-4">
-                        Column 2
                     </div>
                     <div class="col-sm-4">
-                        Column 3
                     </div>
                 </div>
             </div>

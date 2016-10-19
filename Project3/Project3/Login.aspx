@@ -32,7 +32,6 @@
             <div class="col-md-2 col-md-offset-5">
                 <a href="HomePage.aspx" class="text-center center-block btn btn-info" runat="server" role="button">Log In</a>
             </div>
-           
             <div class="row col-md-4 col-md-offset-3">
                 <label class="control-label">New User? </label>
                 <a href="#" class="btn btn-link">Click Here</a>

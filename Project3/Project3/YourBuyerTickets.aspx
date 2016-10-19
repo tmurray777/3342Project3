@@ -3,7 +3,7 @@
     <h1>Your Buyer Tickets</h1>
     <div class="container">
         <div class="row">
-            <label class="control-label">Your Events:</label>
+            <label class="control-label">Your Events: </label>
         </div>
     </div>
      <div class="center-block">

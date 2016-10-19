@@ -13,5 +13,18 @@ namespace Project3
         {
 
         }
+
+        protected void login_Click(object sender, EventArgs e)
+        {
+            string x = loginPassword.Value;
+            if (x == "1")
+            {
+                Response.Redirect("BuyerHome.aspx");
+            }
+            else
+            {
+                Response.Redirect("SellerHome.aspx");
+            }
+        }
     }
 }

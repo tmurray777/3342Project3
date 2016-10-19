@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-md-2 col-md-offset-5">
-                <a href="HomePage.aspx" class="text-center center-block btn btn-info" runat="server" role="button">Log In</a>
+                <asp:LinkButton ID="login" CssClass="btn btn-info btn-lg" runat="server" OnClick="login_Click">Login</asp:LinkButton>
             </div>
             <div class="row col-md-4 col-md-offset-3">
                 <label class="control-label">New User? </label>

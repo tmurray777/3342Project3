@@ -98,6 +98,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Buyer.Master" />
+    <Content Include="Seller.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,13 +108,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BuyerHome.aspx" />
+    <Content Include="BuyTickets.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="NewUser.aspx" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="SellerHome.aspx" />
+    <Content Include="SellTickets.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuyerHome.aspx.cs">
+      <DependentUpon>BuyerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuyerHome.aspx.designer.cs">
+      <DependentUpon>BuyerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuyTickets.aspx.cs">
+      <DependentUpon>BuyTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuyTickets.aspx.designer.cs">
+      <DependentUpon>BuyTickets.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -128,6 +148,34 @@
       <DependentUpon>NewUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Buyer.Master.cs">
+      <DependentUpon>Buyer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buyer.Master.designer.cs">
+      <DependentUpon>Buyer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Seller.Master.cs">
+      <DependentUpon>Seller.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seller.Master.designer.cs">
+      <DependentUpon>Seller.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SellerHome.aspx.cs">
+      <DependentUpon>SellerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellerHome.aspx.designer.cs">
+      <DependentUpon>SellerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SellTickets.aspx.cs">
+      <DependentUpon>SellTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellTickets.aspx.designer.cs">
+      <DependentUpon>SellTickets.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

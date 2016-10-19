@@ -7,16 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace Project3
 {
-    public partial class NewUser : System.Web.UI.Page
+    public partial class Ticket : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        protected void btnSubmitUser_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Login.aspx");
 
         }
     }
